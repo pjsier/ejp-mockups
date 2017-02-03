@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EJP Filter Mockups</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset='utf-8' />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
+  </head>
+  <body>
+    <div class="filter-container">
+      {{content}}
+      {% include posts.html %}
+    </div>
+  </body>
+  <script type="text/javascript">
+    var siteBase = "{{site.baseurl}}";
+  </script>
+  <script type="text/javascript" src="{{site.baseurl}}/script.js"></script>
+</html>
