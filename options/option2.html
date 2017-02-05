@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="filter-controls">
+  <h3>Filters</h3>
+  <div class="filter-options">
+    <p>I'm looking for... <input type="text"></p>
+    <p>Relating to...
+      <select name="topics">
+        <option value=""></option>
+        <option value="housing">Housing</option>
+        <option value="health">Health</option>
+        <option value="other">Other</option>
+      </select>
+    </p>
+  </div>
+  <div class="buttons">
+    <span id="loadingSpan">Loading...</span>
+    <button id="locationButton">Locations Near Me</button>
+    <button id="triggerFilter">Filter</button>
+    <button id="triggerReset">Reset</button>
+  </div>
+  <p id="geoError">Your browser does not support getting location</p>
+</div>
